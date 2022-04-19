@@ -1,0 +1,474 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+body{
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient( transparent 100px, #000000), url(images/firstph.png);
+    box-shadow: inset 0 30px 90px black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 350px;
+}
+.content{
+    width: 1129px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.content .title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    letter-spacing: 3px;
+    
+}
+.content .timer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.content .timer .number{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 180px;
+}
+ .content .timer .timer-title{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hide{
+    display: none;
+}
+.data{
+    background: rgba(0, 0, 0, 0.58);
+    border-radius: 8px;
+    max-width: 543px;
+    padding: 15px 22px;
+    margin-top: 40px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+tr,td{
+    padding: 12px 18px;
+    
+}
+
+.left-td{
+    border-right: 2px solid #fff;
+    padding-left: 0;
+}
+.top-tr{
+    border-bottom: 2px solid #fff;
+}
+.table-text{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.table-title{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+.follow-box{
+    margin-top: 45px;
+    min-width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-box a img{
+    max-width: 84px;
+    max-height: 84px;
+}
+.follow-box .link-titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.follow-box .link-titles a{
+    background: #4E95F2;
+    text-align: center;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 12px 7px 16px;
+}
+.follow-box .link-titles a img{
+    max-width: 22px;
+    max-height: 22px;
+    margin-left: 8px;
+}
+.follow-box .link-titles p{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 11px;
+}
+.statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 179px;
+}
+.secondBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+
+}
+.ukrstands{
+    padding: 18px 29px 14px 28px;
+    background: url(images/ukrflag.png);
+    max-width: 482px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+}
+.ukrstands h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000;
+}
+.secondBox .infoBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 116px;
+    width: 100%;
+}
+.secondBox .infoBox h2{
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 58px;
+    letter-spacing: 3px;
+}
+
+.secondBox .infoBox .Berlin img{
+    position: relative;
+    width: 404px;
+    height: 519px;
+    left: 26.61%;
+    top: -80px;
+    
+}
+.secondBox .infoBox .Berlin .city{
+    color: #DB1B1B;
+}
+.secondBox .infoBox .Berlin h3{
+    color: #DB1B1B;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.secondBox .infoBox .Berlin h3 .amount{
+    color: #DB1B1B;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.secondBox .infoBox p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 58px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.secondBox .infoBox .Washington{
+    margin-bottom: 150px;
+}
+.secondBox .infoBox .Washington .city{
+    color: #4E95F2;
+}
+.secondBox .infoBox .Washington h3{
+    color: #4E95F2;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.secondBox .infoBox .Washington h3 .amount{
+    color: #4E95F2;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.secondBox .infoBox .Washington img{
+    position: relative;
+    width: 620px;
+    height: 378px;
+    left: -60px;
+}
+.wecando{
+    padding: 278px;
+    background:radial-gradient(69.07% 463.17% at 100% 43.5%, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 45.43%, #060708 99.74%), linear-gradient(353.7deg, #060708 15.88%, rgba(0, 0, 0, 0) 38.14%, rgba(3, 4, 4, 0.355689) 59.81%, rgba(4, 5, 6, 0.520671) 70.88%, #060708 82.36%), url(images/tanks2.png);
+    box-shadow: inset 0 200px 300px  black;
+    position: relative;
+    width: 100%;
+    min-height: 1245px;
+    background-size: cover;
+}
+.titleBox{
+    max-width: 609px;
+}
+.titleBox h3{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    color: #F6CB45;
+
+}
+.titleBox h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+.titleBox h1:after{
+    content: '';
+    background-color: #fff;
+    width: 604px;
+    height: 3px;
+    display: block;
+    border-radius: 3px;
+}
+.titleBox .text{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 224px;
+}
+.titleBox p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.titleBox p a{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #4E95F2;
+}
+.titleBox .text h4{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 22px;
+}
+.readfull{
+    width: 100%; 
+    height: 960px;   
+    background: linear-gradient(6.53deg, #060708 14.02%, rgba(0, 0, 0, 0) 39.53%, rgba(4, 5, 6, 0.520671) 70.24%, #060708 88.02%), radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #060708 99.74%),url(images/sold.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+.readfull .readfullBox{
+    max-width: 524px;
+    height: 782px;
+    margin-left: 100px;
+}
+.readfull .readfullBox .titleRead h3{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 2px;
+
+    color: #F6CB45;
+}
+.readfull .readfullBox .titleRead h1{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: 3px;
+}
+.readfull .readfullBox .short{
+    margin-top: 24px;
+    padding-left: 38px;
+}
+.readfull .readfullBox h2{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    letter-spacing: 2px;
+
+    color: #4E95F2;
+}
+.readfull .readfullBox .short p{
+    margin-bottom: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    
+}
+.readfull .readfullBox .short p span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-decoration-line: underline;
+
+    color: #4E95F2;
+}
+.answerBox{
+    
+    padding: 11px 22px 23px 14px;
+    background: #1A1C1C;
+    border-radius: 8px;
+}
+.answerBox .answer{
+    width: 100%;
+    max-height: 331px;
+    overflow-y: auto;
+    direction: rtl;
+}
+
+.answerBox .answer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 20px;
+}
+.answerBox .answer p span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-decoration-line: underline;
+    
+    color: #4E95F2;
+}
+.answerBox .answer::-webkit-scrollbar{
+    width: 5px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 8px;
+}
+.answerBox .answer::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 8px;
+}
+.prelast{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(180deg, #060708 1.15%, rgba(4, 5, 6, 0) 50.14%, rgba(5, 6, 7, 0.489903) 77.46%, #060708 92.44%), radial-gradient(67.31% 75.36% at 51.94% 47.46%, rgba(4, 5, 6, 0.13) 0%, rgba(0, 0, 0, 0.18) 13.42%, rgba(0, 0, 0, 0.7) 49.65%, rgba(4, 5, 6, 0.8) 76.95%, #060708 97.4%), url(images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -290px 100px black;
+}
+.rights{
+    padding: 263px 100px 0 278px;
+    
+    background:radial-gradient(140.47% 56.35% at 76.38% 44.42%, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 42.06%, #060708 74.68%),radial-gradient(50.94% 76.42% at 83.51% 57.16%, rgba(17, 17, 17, 0.3) 0%, rgba(0, 0, 0, 0.25) 20.12%, rgba(4, 5, 6, 0.520671) 60.03%, #060708 91.31%), url(images/lastimg.png);
+    box-shadow: inset 0 -200px 300px  black;
+    position: relative;
+    width: 100%;
+    min-height: 1045px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 105px;
+}
+
+.rights b{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.rights span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-decoration-line: underline;
+
+    color: #4E95F2;
+}
+footer{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.flags{
+    max-width: 392px;
+    max-height: 82px;
+}
