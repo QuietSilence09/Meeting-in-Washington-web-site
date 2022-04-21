@@ -496,7 +496,7 @@ td {
     box-shadow: inset 0 -200px 300px black;
     position: relative;
     width: 100%;
-
+    
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -676,7 +676,13 @@ footer .ukrstandsf {
         font-size: 16px;
         line-height: unset;
     }
-
+    .wecando{
+        background-position: center;
+    }
+    .readfull{
+        background-position: center;
+    }
+   
 }
 
 @media (max-width: 450px) {
